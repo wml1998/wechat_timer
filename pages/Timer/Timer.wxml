@@ -1,0 +1,21 @@
+<!--pages/Timer/Timer.wxml-->
+<view class="view_box">
+  <view class="pep_ave">中国现阶段人均寿命900个月</view>
+  <view class="section">
+
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+      <view class="picker">
+        <text>出生日期</text>：{{date}}
+        <view>
+          <text>已经过去了{{}}个月</text>
+        </view>
+
+      </view>
+    </picker>
+
+    <text>当前时间:{{time}}</text>
+  </view>
+  <view>还剩{{months}}月</view>
+  <view class="elet_dianchi">电池组件</view>
+  <view class='truth'>一些道理</view>
+</view>

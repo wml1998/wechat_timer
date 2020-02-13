@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="row">
+    <text>开始日期：</text>
+    <picker mode="date" fields="day" end="{{endDate}}" bindchange="changeStart">
+      <text>{{start}}</text>
+    </picker>
+  </view>
+  <view class="row">
+    <text>结束日期：</text>
+    <picker mode="date" fields="day" end="{{endDate}}" bindchange="changeEnd">
+      <text>{{end}}</text>
+    </picker>
+  </view>
+</view>
+
+
+<view>
+  <text>相距天数: {{distance}}天</text>
+</view>

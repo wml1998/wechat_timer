@@ -1,0 +1,21 @@
+/* pages/Timer/Timer.wxss */
+.view_box{
+  width: 100%;
+  height: 100%;
+}
+.pep_ave{
+  text-align: center;
+  align-items: center;
+  height: 128rpx
+}
+.elet_dianchi{
+  width: 60%;
+  height: 600rpx;
+  border: 1rpx #222 solid;
+  margin: 0 auto;
+}
+.truth{
+  width: 100%;
+  text-align: center;
+  align-items: center
+}
